@@ -3,10 +3,7 @@
  * Monitor market data
  */
 import axios from "axios";
-import * as dotenv from "dotenv";
 import { WebSocket } from "ws";
-
-dotenv.config();
 
 const {
   STREAM_PAIR,
